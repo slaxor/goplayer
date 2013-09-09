@@ -4,14 +4,14 @@ eidogo.i18n = eidogo.i18n || {
     'loading':          'Laden',
     'passed':           'passt',
     'resigned':         'gibt auf',
-    
+
     'variations':       'Variationen',
     'no variations':    'keine',
-    
+
     'tool':             'Tool',
     'view':             'Springe zum Zug',
     'play':             'Setze',
-    'region':           'Wähle Region',
+    'region':           'WÃ¤hle Region',
     'add_b':            'Schwarzer Stein',
     'add_w':            'Weisser Stein',
     'edit comment':     'Bearbeite Kommentar',
@@ -27,27 +27,27 @@ eidogo.i18n = eidogo.i18n || {
     'dim':              'Schattierung',
     'clear':            'Entferne Markierung',
     'score':            'Wertung', // as in score tool
-    'score est':        'Spielstandsschätzung',
+    'score est':        'SpielstandsschÃ¤tzung',
     'search':           'Suche',
     'search corner':    'Ecksuche',
     'search center':    'Zentrumssuche',
-    'region info':      'Klicke und ziehe, um eine Region auszuwählen.',
-    'two stones':       'Bitte wähle mindestens zwei Steine für die Suche aus.',
-    'two edges':        'Für eine Ecksuche muss Deine Auswahl zwei benachbarte Kanten des Bretts berühren.',
+    'region info':      'Klicke und ziehe, um eine Region auszuwÃ¤hlen.',
+    'two stones':       'Bitte wÃ¤hle mindestens zwei Steine frÃ¼ die Suche aus.',
+    'two edges':        'F?r eine Ecksuche muss Deine Auswahl zwei benachbarte Kanten des Bretts ber?hren.',
     'no search url':    'Keine Such-URL angegeben.',
-    'close search':     'Schließe Suche',
+    'close search':     'SchlieÃŸe Suche',
     'matches found':    'Treffer gefunden.', // as in, "12 matches found"
     'show games':       'Zeige Profispiele mit dieser Stellung',
     'save to server':   'Auf dem Server speichern',
     'download sgf':     'SGF herunterladen',
     'multi-game sgf':   'Multi-game SGF: ',
-    'next game':        'Nächstes Spiel',
+    'next game':        'N?chstes Spiel',
     'previous game':    'Vorheriges Spiel',
     'end of variation': 'Ende der Variation',
 
-    'white':            'Weiß',
-    'white rank':       'Weißer Rang',
-    'white team':       'Weiße Mannschaft',
+    'white':            'WeiÃŸ',
+    'white rank':       'WeiÃŸer Rang',
+    'white team':       'WeiÃŸe Mannschaft',
 
     'black':            'Schwarz',
     'black rank':       'Schwarzer Rang',
@@ -55,7 +55,7 @@ eidogo.i18n = eidogo.i18n || {
 
     'captures':         'Gefangene',
     'time left':        'Zeit',
-    
+
     'you':              'Du',
 
     'game':             'Spiel',
@@ -68,7 +68,7 @@ eidogo.i18n = eidogo.i18n || {
     'event':            'Veranstaltung',
     'round':            'Runde',
     'overtime':         'Byoyomi',
-    'opening':          'Eröffnung',
+    'opening':          'Er?ffnung',
     'ruleset':          'Regeln',
     'annotator':        'Kommentator',
     'copyright':        'Urheberrecht',
@@ -79,7 +79,7 @@ eidogo.i18n = eidogo.i18n || {
 
     'january':          'Januar',
     'february':         'Februar',
-    'march':            'März',
+    'march':            'M?rz',
     'april':            'April',
     'may':              'Mai',
     'june':             'Juni',
@@ -89,11 +89,11 @@ eidogo.i18n = eidogo.i18n || {
     'october':          'Oktober',
     'november':         'November',
     'december':         'Dezember',
-    
-    'gw':               'Gut für Weiß',
-    'vgw':              'Sehr gut für Weiß',
-    'gb':               'Gut für Schwarz',
-    'vgb':              'Sehr gut für Schwarz',
+
+    'gw':               'Gut fÃ¼r WeiÃŸ',
+    'vgw':              'Sehr gut fÃ¼r WeiÃŸ',
+    'gb':               'Gut fÃ¼r Schwarz',
+    'vgb':              'Sehr gut fÃ¼r Schwarz',
     'dm':               'Ausgeglichene Stellung',
     'dmj':              'Ausgeglichene Stellung (Joseki)',
     'uc':               'Unklare Stellung',
@@ -103,18 +103,18 @@ eidogo.i18n = eidogo.i18n || {
     'do':               'Zweifelhafter Zug',
     'it':               'Interessanter Zug',
     'black to play':    'Schwarz am Zug',
-    'white to play':    'Weiß am Zug',
+    'white to play':    'WeiÃŸ am Zug',
     'ho':               'Hotspot',
-    
-    'confirm delete':   'Du hast alle Eigenschaften dieser Stellung entfernt.\n\nLösche diese Stellung und alle Stellungen darunter?',
-    'position deleted': 'Stellung gelöscht',
+
+    'confirm delete':   'Du hast alle Eigenschaften dieser Stellung entfernt.\n\nLÃ¶sche diese Stellung und alle Stellungen darunter?',
+    'position deleted': 'Stellung gelÃ¶scht',
 
     'dom error':        'Konnte keinen DOM-Container finden',
     'error retrieving': 'Beim Abruf der Spieldaten ist ein Problem aufgetreten.',
-    'invalid data':     'Ungültige Spieldaten',
+    'invalid data':     'Ung?ltige Spieldaten',
     'error board':      'Fehler beim Laden des Brett-Containers',
-    'unsaved changes':  'Es gibt nicht gesicherte Änderungen in diesem Spiel. Vor dem herunterladen oder permalinken musst Du Abspeichern.',
+    'unsaved changes':  'Es gibt nicht gesicherte Ã„nderungen in diesem Spiel. Vor dem herunterladen oder permalinken musst Du Abspeichern.',
     'bad path':         'Unbekannter Pfad: ',
-    
+
     'gnugo thinking':   'GNU Go denkt nach...'
-}
+};

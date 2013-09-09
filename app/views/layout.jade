@@ -4,7 +4,7 @@ html
     title= title
     script(type='text/javascript').
       eidogoConfig = {
-          theme:          "standard", // "standard" or "compact"
+          theme:          "slaxor", // "standard" or "compact"
           mode:           "play", // "play" or "view"
           showComments:    true,
           showPlayerInfo:  true,
@@ -15,8 +15,12 @@ html
           markCurrent:     true,
           markVariations:  true,
           markNext:        true,
-          problemMode:     true,
-          enableShortcuts: true
+          problemMode:     false,
+          enableShortcuts: true,
+          scoreEstUrl:     '/gnugo/estimate'
+          searchUrl:       "/search/",
+          saveUrl:         "/save",
+          downloadUrl:     '/download/,
       };
 
     script(type="text/javascript" src="player/i18n/de.js")
