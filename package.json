@@ -1,15 +1,37 @@
 {
   "name": "GoPlayer",
   "version": "0.0.1",
+  "author": {
+    "name": "Sascha Teske",
+    "email": "sascha.teske@gmail.com"
+  },
   "private": true,
-  "repository": "https://github.com/slaxor/goplayer",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/slaxor/goplayer"
+  },
   "scripts": {
     "start": "node app.js"
+  },
+  "engines": {
+    "node": "*"
   },
   "dependencies": {
     "express": "3.3.8",
     "jade": "*",
     "less-middleware": "*"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+ "keywords": [
+    "go",
+    "baduk",
+    "weiqi",
+    "igo",
+    "game",
+    "express",
+    "web"
+  ]
 }
 

@@ -5,6 +5,7 @@
   context.app.get('/', context.Controllers.AppCtrlr.index);
   context.app.get('/dgs/:gameId', context.Controllers.DgsCtrlr.game);
   context.app.get('/gnugo/estimate', context.Controllers.GnuGoCtrlr.estimate);
+  context.app.get('/gnugo/play', context.Controllers.GnuGoCtrlr.estimate);
 })(GoGame.Application);
 
 
